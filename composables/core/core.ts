@@ -1,4 +1,4 @@
-export const useCore = () => {
-    const alert = 'alert'
-    return {alert} 
-  }
+export function useCore() {
+  const alert = 'alert'
+  return { alert }
+}
