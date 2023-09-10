@@ -14,7 +14,12 @@
     "nuxt": "^3.7.0"
   },
   "dependencies": {
+    "@invictus.codes/nuxt-vuetify": "^0.3.0",
+    "@pinia/nuxt": "^0.4.11",
     "install": "^0.13.0",
-    "npm": "^9.8.1"
+    "npm": "^9.8.1",
+    "pinia": "^2.1.6",
+    "sass": "^1.66.1",
+    "vuetify": "3.4.0-alpha.1"
   }
 }
