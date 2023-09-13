@@ -1,5 +1,8 @@
 <template>
-  <div />
-  <slot />
-  <div />
+  <v-app id="inspire">
+    <CoreSidebar />
+    <v-main>
+      <slot />
+    </v-main>
+  </v-app>
 </template>

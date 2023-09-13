@@ -12,11 +12,18 @@ export default defineNuxtConfig({
     '@invictus.codes/nuxt-vuetify',
     '@pinia/nuxt',
     '@vueuse/nuxt',
+    'nuxt-icons',
+    'nuxt-icon',
   ],
   vuetify: {
     /* vuetify options */
     vuetifyOptions: {
+      icons: {
+        defaultSet: 'mdi',
+      },
+
       // @TODO: list all vuetify options
+
       theme: {
         defaultTheme: 'light',
       },
@@ -32,7 +39,7 @@ export default defineNuxtConfig({
       // useVuetifyLabs: true | false,
     },
   },
-  css: ['vuetify/lib/styles/main.sass'],
+  css: ['vuetify/lib/styles/main.sass', '~/assets/css/main.css'],
   build: {
     transpile: ['vuetify'],
   },

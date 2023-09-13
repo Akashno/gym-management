@@ -1,4 +1,4 @@
 export function useCore() {
   const alert = 'alert'
-  return { alert }
+  return {}
 }
