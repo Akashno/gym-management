@@ -1,10 +1,9 @@
 <template>
-    <div class="bg-primary">
-        login page
+    <div>
+        <Navbar/>
     </div>
 </template>
 <script setup>
-definePageMeta({
-    layout:''
-})
+const {assets} = useFirebase()
+const {core,doors,interlocks} = assets
 </script>
