@@ -2,6 +2,11 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  imports: {
+    dirs: [
+      'composables/**',
+    ],
+  },
   modules: [
     '@nuxt/devtools',
     'nuxt-vuefire',
