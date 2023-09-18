@@ -1,3 +1,17 @@
-.cursor-pointer { 
+/* Apply Roboto font to headings */
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+/* Apply Noto Sans JP font to paragraph text */
+.font-noto-sans-jp {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.font-inclusive {
+    font-family: 'Rubik', sans-serif;
+}
+.cursor-pointer {
     cursor: pointer
- }
+}
+.icon{
+    cursor: pointer;
+}

@@ -1,8 +1,8 @@
 <template>
-  <v-app id="inspire">
-    <CoreSidebar />
-    <v-main>
+  <div class="max-w-screen-2xl mx-auto w-full mt-0">
+    <CoreNavbar />
+    <div>
       <slot />
-    </v-main>
-  </v-app>
+    </div>
+  </div>
 </template>

@@ -1,9 +1,4 @@
 <template>
-    <div>
-        <Navbar/>
-    </div>
+  <HomeHero class="font-inclusive" />
+  <CoreExplore />
 </template>
-<script setup>
-const {assets} = useFirebase()
-const {core,doors,interlocks} = assets
-</script>
