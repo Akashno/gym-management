@@ -1,5 +1,5 @@
 <template>
-  <div class="grid place-items-center  hover:shadow-lg hover:scale-105 transition">
+  <button class="grid place-items-center cursor-pointer hover:shadow-lg hover:scale-105 transition">
     <slot />
-  </div>
+  </button>
 </template>

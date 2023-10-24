@@ -10,17 +10,17 @@ function prev() {
   swiper.value.slidePrev()
 }
 const images = [
-  'interlockCardOne.jpeg',
-  'interlockCardTwo.jpeg',
-  'interlockCardThree.jpeg',
+  '/images/interlockCardOne.jpeg',
+  '/images/interlockCardTwo.jpeg',
+  '/images/interlockCardThree.jpeg',
 
-  'interlockCardOne.jpeg',
-  'interlockCardTwo.jpeg',
-  'interlockCardThree.jpeg',
+  '/images/interlockCardOne.jpeg',
+  '/images/interlockCardTwo.jpeg',
+  '/images/interlockCardThree.jpeg',
 
-  'interlockCardOne.jpeg',
-  'interlockCardTwo.jpeg',
-  'interlockCardThree.jpeg',
+  '/images/interlockCardOne.jpeg',
+  '/images/interlockCardTwo.jpeg',
+  '/images/interlockCardThree.jpeg',
 ]
 </script>
 
@@ -51,7 +51,7 @@ const images = [
       },
     }"
     :loop="true"
-    :modules="[SwiperAutoplay, SwiperEffectCreative]"
+    :modules="[SwiperAutoplay, SwiperParallax]"
     :autoplay="{ delay: 3000, waitForTransition: true, pauseOnMouseEnter: true }"
     @swiper="getRef"
   >
@@ -64,7 +64,7 @@ const images = [
       </div>
     </SwiperSlide>
   </Swiper>
-  <div class="flex gap-x-3 justify-center md:justify-start">
+  <div class="flex gap-x-3 justify-center lg:justify-start">
     <Button class="bg-black h-9 w-9 rounded-full" @click="prev()">
       <Icon name="ep:right" color="white" size="20" class="rotate-180" />
     </Button>

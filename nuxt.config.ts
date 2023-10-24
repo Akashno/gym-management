@@ -2,6 +2,9 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  colorMode: {
+    preference: 'light',
+  },
   imports: {
     dirs: [
       'composables/**',
@@ -15,16 +18,20 @@ export default defineNuxtConfig({
     // modules: ['navigation', 'pagination'], // all modules are imported by default
   },
   modules: [
+    '@nuxt/ui',
+    '@nuxtjs/color-mode',
     '@nuxt/devtools',
     'nuxt-vuefire',
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
     '@nuxtjs/google-fonts',
     'nuxt-swiper',
+    '@pinia/nuxt',
+    '@vueuse/nuxt',
+
   ],
   googleFonts: {
     families: {
-
       Rubik: true, // You can specify multiple font families
     },
     display: 'swap', // Optional: Specify the font-display CSS property

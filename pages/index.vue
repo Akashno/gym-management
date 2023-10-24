@@ -1,4 +1,5 @@
 <template>
-  <HomeHero class="font-inclusive" />
-  <CoreExplore />
+  <div>
+    <HomeHero />
+  </div>
 </template>
